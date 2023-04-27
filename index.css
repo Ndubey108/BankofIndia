@@ -1,0 +1,139 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+
+}
+
+.nav{
+    height:10vh;
+    background-color:rgb(6, 6, 35);
+    width:100vw;
+}
+.nav ul{
+    display:flex;
+    align-items:center;
+    height:inherit;
+    justify-content:space-between;;
+    margin-left:150px;
+    width:80vw;
+}
+.nav a{
+    color:white;
+    text-decoration: none;
+}
+.nav li{
+    border-right:1px solid darkblue;
+    width:100%;
+ display:flex;
+ align-items:center;
+ justify-content:center;
+    height:60%;
+}
+.nav .nav-items input{
+    width:50%;
+    margin-left:30px;
+    color:white;
+    background-color: rgb(6, 6, 35);
+    border:none;
+}
+.nav button {
+  background-color:white;
+  height:10px;
+  width:20px;
+}
+/* next section */
+.dropdown{
+    width:120px;
+    z-index:1;
+    position:fixed;
+}
+.dropdown ul{
+    position:relative;
+    left:930px;
+    height:70px;
+    background-color:rgb(1, 1, 63);
+  
+}
+.dropdown ul li{
+    list-style-type:none;
+    color:white;
+    width:80%;
+    height:30px;
+    border-bottom:1px solid white;
+    text-align: center;
+    margin-left:5px;
+
+}
+.dropdown ul li:last-child{
+    border:none;
+   margin-top:8px;
+}
+.header2{
+    height:20vh;
+    width:100%;
+   display:flex;
+   align-items:center;
+   border-bottom: 2px solid lightgray;
+}
+.header2 #banklogo{
+    height:60%;
+    width:10em;
+   margin-left:6vw;
+}
+
+.header2 ul{
+    width:50%;
+    display:flex;
+    margin-left:5vw;
+    
+}
+.header2 .navbar2list li{
+    list-style-type:none;
+    font-weight: 700;
+    margin-left:1.2vw;
+    font-size:small;
+}
+.header2 .navbar2list .arrow{
+    margin-left:0.5vw;
+}
+.header2  #search{
+    height:1.5rem;
+    width:1.5rem;
+    margin-left:0px;
+}
+.header2 #download{
+    background-color:rgb(44, 44, 198);
+    color:white;
+    height:6vh;
+    width:10vw;
+    border:none;
+    border-radius:5px;
+    margin-left:1vw;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.header2 #downarrow{
+    height:2.5vh;
+    width:1.3vw;
+    background-color:orangered;
+    border-radius: 2px;
+    margin-left:0.5vw;
+}
+button{
+    border:none;
+    color:blue;
+    background-color: white;
+
+}
+
+/*next section*/
+marquee{
+    margin-top:2vh;
+    background-color:blue;
+    height:6vh;
+    color:white;
+    font-weight:600;
+    text-align: center;
+}
